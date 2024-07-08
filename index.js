@@ -16,5 +16,5 @@ server.listen(port, () => {
 })
 
 server.get('/api/test', (req, res) => {
-    res.json({message:'dsasd'})
+    res.json({message:'the test works'})
 })
